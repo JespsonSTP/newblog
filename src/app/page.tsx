@@ -1,4 +1,3 @@
-import Link from "next/link"
 import  myPosTitles  from '../../components/getPost'
 import PostPreview from "../../components/PostPreview"
 

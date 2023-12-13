@@ -4,7 +4,7 @@ import { PostMetadata } from "../components/postmetadata"
 
 
 //get the post from the folder
-function myPosTitles(): PostMetadata[]{
+const myPosTitles = (): PostMetadata[] =>{
     //let the folder be known
     const folder = "posts/"
     //read from folder synchronous
@@ -22,7 +22,7 @@ function myPosTitles(): PostMetadata[]{
             title: post_metadata_graymatter.data.title,
             date: post_metadata_graymatter.data.date,
             subtitle: post_metadata_graymatter.data.subtitle,
-            slug: post.replace(".md", " ")
+            slug: post.replace(".md", "")
         }
     })
     return posts
