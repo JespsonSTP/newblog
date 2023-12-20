@@ -1,5 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+/example
+layer.md
+gpt-3-generated-poetry.md
+saas-starter-app.md
+retro-games-with-pico-8.md
+wolfhunter.md
+qr-code-micro-app.md
 # dependencies
 /node_modules
 /.pnp
